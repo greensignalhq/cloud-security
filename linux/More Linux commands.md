@@ -17,3 +17,19 @@ restore individual files from the archive.
 
 # remember
 - tar does not automatically create a [destination directory] before extracting files from archive. You should already create the destination directory before the [tar] command, then use flag [-C] to specified the destination. 
+
+# clear
+
+'''bash
+clear
+'''
+
+[ clear ] will clear text previously printed in your terminal, but won’t delete anything (scroll up to see old output again).
+
+# grep
+
+'''bash
+grep -r "find this fine voice" .
+'''
+
+this command [ grep ] w/ flag [ -r ] will search for the words " find this fine voice" in files that can be reached from current directory. 
