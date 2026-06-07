@@ -16,6 +16,20 @@ mkdir greendir
 
 this command makes directories.
 
+# rm
+
+'''bash
+rm -i newtext.file
+'''
+
+This command removes files; flag/option [ -i ] prompts your for confirmation before command is executed.
+
+# rmdir
+
+'''bash
+rmdir 
+
+
 
 # mv
 
