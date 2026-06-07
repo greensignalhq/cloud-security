@@ -12,7 +12,7 @@ ls -l
 
 [ -l ] (lowercase l) "long" format listing. You'll see additional details like file permissions, owner, size, and modification date.
 
-flags modify the command
+[ flags ] modify the command
 
 Syntax: The general structure is command [flags] [arguments], such as ls -la to list all files in long format.
 
@@ -20,15 +20,19 @@ Syntax: The general structure is command [flags] [arguments], such as ls -la to 
 ls -la
 '''
 
-Combination: Short flags can often be grouped together after a single hyphen
+[ Combination Flags ] Short flags can often be grouped together after a single hyphen
 
 '''bash
 ls -a
 '''
 
-this flag [ -a ] will show all files including dot . hidden files.
+This flag [ -a ] will show all files including dot . hidden files.
 
+'''bash
+grep --help
+'''
 
+This flag [ --help ] displays help text or usage information for a program & then exit.
 
 
 #note
