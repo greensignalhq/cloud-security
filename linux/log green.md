@@ -94,3 +94,4 @@ mv -v -- *.png /path/to/new/folder/
 
 while pasting some oldcode into shell, while pressing up and down arrows (after pressing the right arrow to solidify paste, but before using left arrow to push cursor back to where I want to change file name) it switched between an array of old lines I just typed into the command line how?
 
+Spaces between commands matter! I was getting ssh configured, and the space between the url and command made output display usage instead of execution.
